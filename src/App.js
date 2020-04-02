@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+  LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
+} from 'recharts';
 import logo from './logo.svg';
 import './App.css';
 
