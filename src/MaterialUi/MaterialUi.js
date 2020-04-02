@@ -5,6 +5,9 @@ const MaterialUi = () => {
     return (
         <div>
             <h1>material</h1>
+            <Button variant="contained" color="primary">
+                Hello World
+            </Button>
         </div>
     );
 };

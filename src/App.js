@@ -4,6 +4,7 @@ import {
 } from 'recharts';
 import logo from './logo.svg';
 import './App.css';
+import MaterialUi from './MaterialUi/MaterialUi';
 
 function App() {
   const data = [
@@ -34,6 +35,7 @@ function App() {
         <Area type="monotone" dataKey="pv" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
         <Area type="monotone" dataKey="amt" stackId="1" stroke="#ffc658" fill="#ffc658" />
       </AreaChart>
+      <MaterialUi></MaterialUi>
     </div>
   );
 }
